@@ -1,4 +1,3 @@
-
 mkdir "%PREFIX%\bin" || goto :error
 move stack.exe "%PREFIX%\bin\stack.exe" || goto :error
 goto :EOF
